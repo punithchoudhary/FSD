@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment</title>
+</head>
+<body>
+    <h1>Bash commands I've learnt</h1>
+    <hr>
+    
+    <h2>1. touch</h2>
+    <h4>File Creation</h4>
+    <p>The <b>touch</b> command creates a new, empty file.If the file already exists, it simply updates the file's last-modified timestamp instead of changing it's content.It's one of the simplest ways to create file directly from the terminal.</p>
+    <p><u>Syntax:</u> touch filename</p>
+    <p><u>Example:</u> touch notes.txt</p>
+    <p><u>Output:</u> (no output- the files is silently created in the current folder)</p>
+    <hr>
+
+    <h2>2. mkdir</h2>
+    <h4>Folder Creation</h4>
+    <p>The <b>mkdir</b> command creates a new, empty folder (directory) at the location you specify.</p>
+    <p><u>Syntax:</u> mkdir foldername</p>
+    <p><u>Example:</u> mkdir project</p>
+    <p><u>Output:</u> (no output- the folder project is created in the current directory)</p>
+    <hr>
+
+    <h2>3. cd</h2>
+    <h4>Changing Directory</h4>
+    <p>The <b>cd</b> command changes the current working directory, moving you into a different folder in the terminal.</p>
+    <p><u>Syntax:</u> cd foldername</p>
+    <p><u>Example:</u> cd project</p>
+    <p><u>Output:</u> (prompt changes to show you are now inside ~/project)</p>
+    <hr>
+
+    <h2>4. grep (Exploration)</h2>
+    <h4>What is grep?</h4>
+    <p><u>What i tried:</u> grep "Syntax" index.html</p>
+    <p><u>Output i got:</u>
+    <code>&lt;p&gt;</code><code>&lt;u&gt;</code>Syntax:<code>&lt;/u&gt;</code> <code>&lt;code&gt;</code>touch filename<code>&lt;/code&gt;</code><code>&lt;/p&gt;</code>
+    <br><code>&lt;p&gt;</code><code>&lt;u&gt;</code>Syntax:<code>&lt;/u&gt;</code> <code>&lt;code&gt;</code>mkdir foldername<code>&lt;/code&gt;</code><code>&lt;/p&gt;</code>
+    <br><code>&lt;p&gt;</code><code>&lt;u&gt;</code>Syntax:<code>&lt;/u&gt;</code> <code>&lt;code&gt;</code>cd foldername<code>&lt;/code&gt;</code><code>&lt;/p&gt;</code>
+    </p>
+    <p><u>My Understanding:</u> grep searches through the contents of a file(or files) for lines that match a given word or pattern, and it prints out only the matching lines rather than the whole file. This makes it useful for quickly finding where a particular word or piece of text appears inside a large file without having to open and read it manually.</p>
+    <hr>
+</body>
+</html>
